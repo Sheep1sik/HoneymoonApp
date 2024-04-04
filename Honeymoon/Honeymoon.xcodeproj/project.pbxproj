@@ -17,6 +17,7 @@
 		E8FF50BD2BBE718800DA484D /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF50BC2BBE718800DA484D /* HoneymoonData.swift */; };
 		E8FF50C12BBE721B00DA484D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF50C02BBE721B00DA484D /* CardView.swift */; };
 		E8FF50C32BBE7BF000DA484D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF50C22BBE7BF000DA484D /* HeaderView.swift */; };
+		E8FF50C52BBE803000DA484D /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF50C42BBE803000DA484D /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E8FF50BC2BBE718800DA484D /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
 		E8FF50C02BBE721B00DA484D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E8FF50C22BBE7BF000DA484D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E8FF50C42BBE803000DA484D /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				E8FF50C02BBE721B00DA484D /* CardView.swift */,
 				E8FF50C22BBE7BF000DA484D /* HeaderView.swift */,
+				E8FF50C42BBE803000DA484D /* FooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FF50BD2BBE718800DA484D /* HoneymoonData.swift in Sources */,
+				E8FF50C52BBE803000DA484D /* FooterView.swift in Sources */,
 				E8FF50C32BBE7BF000DA484D /* HeaderView.swift in Sources */,
 				E8FF50BA2BBE70D300DA484D /* HoneymoonModel.swift in Sources */,
 				E8FF50A92BBE695F00DA484D /* ContentView.swift in Sources */,
