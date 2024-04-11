@@ -10,16 +10,20 @@ import SwiftUI
 struct HeaderView: View {
     
     @Binding var showGuideView: Bool
+    @Binding var showInfoView: Bool
     
     var body: some View {
         HStack(content: {
             Button(action: {
-                print("Information")
+                self.showInfoView.toggle()
             }, label: {
                 Image(systemName: "info.circle")
                     .font(.system(size: 24, weight: .regular))
             })
             .accentColor(Color.primary)
+            .sheet(isPresented: $showInfoView, content: {
+                InfoView()
+            })
             
             Spacer()
             
@@ -48,6 +52,7 @@ struct HeaderView: View {
 
 #Preview {
     @State var showGuide:Bool = false
+    @State var showInfo:Bool = false
     
-    return HeaderView(showGuideView: $showGuide)
+    return HeaderView(showGuideView: $showGuide, showInfoView: $showInfo)
 }
